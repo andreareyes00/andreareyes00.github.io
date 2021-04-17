@@ -1,4 +1,5 @@
-body {
-    background-color: #ffdd90;
-    background-image: url("https://www.stockvault.net/data/2010/10/22/115489/preview16.jpg");
+html {
+    background: url("rosa-1f339.svg") left top repeat-y,
+      hsl(105, 80%, 85%) url("tulipan-1f337.svg") right top repeat-y;
+    padding: 0 70px;
   }
