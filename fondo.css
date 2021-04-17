@@ -1,5 +1,3 @@
-html {
-    background: url("rosa-1f339.svg") left top repeat-y,
-      hsl(105, 80%, 85%) url("tulipan-1f337.svg") right top repeat-y;
-    padding: 0 70px;
-  }
+body {
+    background-color: #3e3472;
+    }
