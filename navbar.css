@@ -12,5 +12,6 @@ nav{
     background: rgb(95, 97, 100);
     padding: 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
 }  
+.div 
