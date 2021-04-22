@@ -71,3 +71,49 @@ body{
   body {
     background-color:#212F3D
 }
+
+
+
+.fab{
+    width: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+.social{
+    position: fixed;
+    left: -10px;
+    top: 250px;
+}
+.social ul{
+    list-style: none;
+}
+.social a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    z-index: 0;
+    transition: 0.1s ease;
+}
+.fa-facebook-f{
+    background: #3b5998;
+}
+.fa-twitter{
+    background: #00abf0;
+}
+.fa-youtube{
+    background: #ae181f;
+}
+.fa-facebook-messenger{
+    background: #0084ff;
+}
+.fa-whatsapp{
+    background: #25d366;
+}
+.fa-instagram{
+    background: #e4405f;
+}
+
+.social a:hover{
+    padding: 10px 25px;
+}
