@@ -1,4 +1,9 @@
-
 body {
     background: rgb(176, 192, 194);
+}
+
+img {
+    padding: 5px;
+    display: flex;
+    justify-content: left;
 }
