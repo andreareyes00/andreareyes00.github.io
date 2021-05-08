@@ -2,3 +2,15 @@
 body {
     background: rgb(176, 192, 194);
 }
+/*********************pie de pagina*****************/
+.footer {
+    height: 8rem;
+    padding: 30px;
+    background-color: #000;
+    color: white;
+    font-family: arial;
+    font-size: 18px;
+    
+
+  }
+/*********************fin de pie de pagina************/
