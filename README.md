@@ -1,2 +1,2 @@
-# tecnology
+# Virtual Technology
 Proyecto Académico
