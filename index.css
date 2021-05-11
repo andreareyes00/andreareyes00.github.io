@@ -1,7 +1,7 @@
-
 body {
     background: rgb(176, 192, 194);
 }
+<<<<<<< HEAD
 /*********************pie de pagina*****************/
 .footer {
     height: 8rem;
@@ -14,3 +14,11 @@ body {
 
   }
 /*********************fin de pie de pagina************/
+=======
+
+img {
+    padding: 5px;
+    display: flex;
+    justify-content: left;
+}
+>>>>>>> 9d2c469cb2a36ac057edda0166eaaff5f782295b
