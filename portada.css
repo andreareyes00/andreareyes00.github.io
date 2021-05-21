@@ -10,13 +10,6 @@ body {
     padding: 30px;
 }
 
-
-/*/ul, li {
-      padding: 0;
-      margin: 0;
-      list-style: none;
-  } */
-
 ul.slider {
     position: relative;
     width: 800px;
