@@ -11,15 +11,17 @@
     background: rgb(101, 141, 168);
 }
 
-nav {
-    background: rgb(95, 97, 100);
-    padding: 15px;
-    display: flex;
-    justify-content: flex-end;
-}
-
 img {
+    width: 350px;
     padding: 5px;
     display: flex;
     justify-content: left;
+}
+
+#div #nav #ul #li {
+    float: left;
+}
+
+nav {
+    float: right;
 }
