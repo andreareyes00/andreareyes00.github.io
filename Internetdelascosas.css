@@ -37,11 +37,10 @@ h1.Title{
 
 img.IoT{
     width: 80%;
-    height: 80%;
+    height: 500px;
     justify-content: center;
     margin: 80px;
-    
-    
+  
 }
 
 .Informacion{
@@ -59,11 +58,10 @@ h2.pregunta{
 
 .texto{
     line-height: 30px;
-    font-size: 20px;
+    font-size: 30px;
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px; 
-    display: block;
     margin: 40px;
 }
 
