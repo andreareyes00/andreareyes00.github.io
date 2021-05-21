@@ -1,0 +1,75 @@
+body{
+    background-color: steelblue;
+}
+
+.Orden{
+    width: 100%;
+}
+
+img.logo{
+    width: 95px;
+    padding: 10px;
+    display: flex;
+    float: left;
+    justify-content: left;
+    
+}
+
+h1.Title{
+    width: 100%;
+    text-align:left;
+    font-style: normal;
+    color: yellowgreen;
+    font-size: 50px;
+    margin: 20px 20px;
+    padding: 200px 0 0 ;
+
+}
+
+.title:after{
+    width: 100%;
+    background-color: yellowgreen;
+    margin: 15px;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+img.IoT{
+    width: 80%;
+    height: 80%;
+    justify-content: center;
+    margin: 80px;
+    
+    
+}
+
+.Informacion{
+    width: 100%;
+    margin: 5px;
+}
+
+h2.pregunta{
+    display: block;
+    text-align: left;
+    font-size: 40px;
+    color: red;
+    margin:40px
+}
+
+.texto{
+    line-height: 30px;
+    font-size: 20px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    display: block;
+    margin: 40px;
+}
+
+img.IoT1{
+    margin-left: auto;
+    margin-right: auto;
+    margin: 40px;
+    padding: 0 0 0 300px;
+}
