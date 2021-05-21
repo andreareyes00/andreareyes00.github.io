@@ -1,6 +1,9 @@
+body{
+    background-color: rgb(39, 25, 121);
+}
 .nav-enlace {
     display: inline-block;
-    background: rgb(17, 124, 167);
+    background:yellowgreen;
     color: #fff;
     padding: 9px 30px;
     text-decoration: none;
