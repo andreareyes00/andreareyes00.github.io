@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
 * {
     margin: 0;
@@ -27,13 +26,13 @@ header .logo {
     text-decoration: none;
     font-weight: 100;
 }
-
+ 
 header .search {
     position: relative;
     width: 300px;
     height: 30px;
 }
-
+ 
 header .search input {
     position: absolute;
     top: 0;
@@ -47,11 +46,11 @@ header .search input {
     border-radius: 4px;
     padding: 0 20 px 0 45px;
 }
-
+ 
 header .search input::placeholder {
     color: #fff;
 }
-
+ 
 header .send {
     position: absolute;
     top: 50%;
@@ -66,11 +65,11 @@ header .send {
 body{
     background-color: steelblue;
 }
-
+ 
 .Orden{
     width: 100%;
 }
-
+ 
 img.logo{
     width: 95px;
     padding: 10px;
@@ -79,7 +78,7 @@ img.logo{
     justify-content: left;
     
 }
-
+ 
 h1.Title{
     width: 100%;
     text-align:left;
@@ -88,9 +87,9 @@ h1.Title{
     font-size: 50px;
     margin: 20px 20px;
     padding: 200px 0 0 ;
-
+ 
 }
-
+ 
 .title:after{
     width: 100%;
     background-color: yellowgreen;
@@ -99,7 +98,7 @@ h1.Title{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
+ 
 img.IoT{
     width: 80%;
     height: 500px;
@@ -107,12 +106,12 @@ img.IoT{
     margin: 80px;
   
 }
-
+ 
 .Informacion{
     width: 100%;
     margin: 5px;
 }
-
+ 
 h2.pregunta{
     display: block;
     text-align: left;
@@ -120,7 +119,7 @@ h2.pregunta{
     color: red;
     margin:40px
 }
-
+ 
 .texto{
     line-height: 30px;
     font-size: 30px;
@@ -129,94 +128,10 @@ h2.pregunta{
     margin-bottom: 20px; 
     margin: 40px;
 }
-
+ 
 img.IoT1{
     margin-left: auto;
     margin-right: auto;
     margin: 40px;
     padding: 0 0 0 300px;
-=======
-body{
-    background-color: steelblue;
-}
-
-.Orden{
-    width: 100%;
-}
-
-img.logo{
-    width: 95px;
-    padding: 10px;
-    display: flex;
-    float: left;
-    justify-content: left;
-    
-}
-
-h1.Title{
-    width: 100%;
-    text-align:left;
-    font-weight: bolder;
-    color: orange;
-    font-size: 50px;
-    margin: 20px 20px;
-    padding: 200px 0 0 ;
-
-}
-
-.title:after{
-    width: 100%;
-    background-color: orange;
-    margin: 15px;
-    font-weight: bolder;
-    display: flex;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-img.IoT{
-    width: 82%;
-    height: 500px;
-    justify-content: center;
-    margin: 80px;
-  
-}
-
-.Informacion{
-    width: 100%;
-    margin: 5px;
-}
-
-h2.pregunta{
-    display: block;
-    text-align: left;
-    font-size: 40px;
-    font-weight: bolder;
-    color: red;
-    margin:40px
-}
-
-.texto{
-    line-height: 30px;
-    font-size: 30px;
-    font-weight: bolder;
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px; 
-    margin: 40px;
-}
-
-img.IoT1{
-    margin-left: auto;
-    margin-right: auto;
-    margin: 40px;
-    padding: 0 0 0 300px;
-}
-
-.video{
-    width: 80%;
-    height: 500px;
-    margin: 100px;
-    justify-content: center;
->>>>>>> 34e990fe88b19d316909529a927cd5bce3b27ba6
 }
