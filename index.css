@@ -1,8 +1,4 @@
-b {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
+
 
 body {
     background-color: lightgrey;
@@ -10,12 +6,6 @@ body {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
-}
 
 header {
     position: absolute;
@@ -116,16 +106,24 @@ header .send {
 
 .menu li:last-child {
     border-right: none;
-    background-image: url(FONDODEPANTALLA.jpg);
+    
 }
 
 
 /*********************pie de pagina*****************/
 
+
+
 .footer {
+    width: 1650px;
     background-color: #000;
     text-align: center;
-    font-family: poppins;
+    margin: 25px;
+    padding: 25px;
+
+
+
+    
 }
 
 .footer .piesito h3 {
@@ -160,8 +158,8 @@ header .send {
 /*********************fin de pie de pagina************/
 
 
-/*********************Formulario**********************/
 
+/*
 body {
     margin: 10px;
     padding: 0;
@@ -291,13 +289,12 @@ body {
 .columna .card {
     width: 330px;
     height: 450px;
-    border-radius: 8px;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
     overflow: hidden;
     margin: 20px;
     text-align: center;
     transition: all 0.25s;
-    background-color: silver;
+    background-color:transparent;
 }
 
 .columna .card:hover {
@@ -307,11 +304,12 @@ body {
 
 .columna .card img {
     width: 320px;
-    height: 220px;
+    height: 200px;
 }
 
 .columna .card h3 {
     font-weight: 600;
+    font-weight: bolder;
 }
 
 .columna .card p {
@@ -321,7 +319,7 @@ body {
 }
 
 .columna .card a {
-    font-weight: 500;
+    font-weight: bolder;
     text-decoration: none;
     color: #3498db;
 }

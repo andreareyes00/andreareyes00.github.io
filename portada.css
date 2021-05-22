@@ -5,7 +5,7 @@ body {
 
 .container {
     margin: auto;
-    background-color: #252850;
+    background-color: lightgrey;
     width: 800px;
     padding: 30px;
 }
@@ -24,7 +24,7 @@ ul.slider li {
     width: inherit;
     height: inherit;
     transition: opacity .5s;
-    background: #252850;
+    background: lightgrey;
 }
 
 ul.slider li img {
