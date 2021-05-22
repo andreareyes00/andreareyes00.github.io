@@ -65,10 +65,6 @@ ul.slider li:target {
     border-radius: 100%;
 }
 
-body {
-    background-color: #252850
-}
-
 .fab {
     width: 20px;
     text-align: center;
