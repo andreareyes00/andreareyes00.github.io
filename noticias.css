@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+/**************inicio cabecera***********/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica;
+	
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 0px;
+    z-index: 10;
+    background: #192e55;
+}
+
+header .logo {
+    position: relative;
+    font-size: 1.5em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+header .search {
+    position: relative;
+    width: 300px;
+    height: 30px;
+}
+
+header .search input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background: transparent;
+    outline: none;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding: 0 20 px 0 45px;
+}
+
+header .search input::placeholder {
+    color: #fff;
+}
+
+header .send {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-30%);
+    transform: translateY(-42%);
+    right: -70px;
+    left: 1640px;
+    color: #000;
+    border-right: 1px solid #fff;
+    padding-right: 1px;
+}
+/**********************fin de cambecara**********/
+
+body{
+background-color: white;
+}
+h1 {
+	color: brown;
+font-family: Arial, Helvetica, sans-serif;
+  border-style: double;
+  margin-top: 20px;
+  margin-left: 10em;
+  margin-right: 10em;
+}
+/****************primer noticia**********/
+
+
+strong{
+	
+	border-style: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: xx-large;
+
+}
+strong.p{
+	font-size: 5px;
+}
+/*******************fin de primer noticia************/
+center.titulo{
+	margin-bottom: 5em;
+}
+div.titu{
+	margin-left: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+table{
+	font-family: Arial, Helvetica, sans-serif;
+	padding-left: 1em;
+	background-color:#fdced0;
+	margin-left: 2em;
+	
+
+}
+table, td, th {
+	border-top: 1px solid crimson;
+	padding: 5px;
+  }
+table, th, td {
+	width: 50%;
+  border-collapse: collapse;
+  
+
+}
+img.celumovi{
+	margin-left: 80px;
+	width: 27em;
+}
+div.info{
+	font-family: Arial, Helvetica, sans-serif;
+	width: 50%;
+	font-size: 23px;
+	margin-left: 25px;
+}
+
+div.findeinfo{
+	border-top: crimson 1px solid;
+	font-family: Arial, Helvetica, sans-serif;
+width: 60%;
+font-size: 25px;
+margin-left: 25px;
+}
+div.findeinfo1{
+	border-top: crimson 1px solid;
+	font-family: Arial, Helvetica, sans-serif;
+width: 60%;
+font-size: 25px;
+margin-left: 25px;
+}
+div.findeinfo2{
+	border-top: crimson 1px solid;
+	font-family: Arial, Helvetica, sans-serif;
+width: 60%;
+font-size: 25px;
+margin-left: 25px;
+}
+div.findeinfo3{
+	border-top: crimson 1px solid;
+	font-family: Arial, Helvetica, sans-serif;
+width: 60%;
+font-size: 25px;
+margin-left: 25px;
+}
+div.findeinfo4{
+	border-top: crimson 1px solid;
+	font-family: Arial, Helvetica, sans-serif;
+width: 60%;
+font-size: 25px;
+margin-left: 25px;
+}
+div.findeinfo5{
+	border-top: crimson 1px solid;
+	font-family: Arial, Helvetica, sans-serif;
+width: 60%;
+font-size: 25px;
+margin-left: 25px;
+}
+
+
+/**************************POSICIONAMIENTO DE IMAGENES**********/
+img.xiaomi { 
+	padding: 10px;
+	 margin: 10px; 
+	  float: right; 
+	  width: 350px; 
+	}
+	img.oneplus { 
+		padding: 10px;
+		 margin: 10px; 
+		  float: right; 
+		  width: 350px; 
+		}
+		img.Black { 
+			padding: 10px;
+			 margin: 10px; 
+			  float: right; 
+			  width: 350px; 
+			}
+		img.Realme { 
+				padding: 10px;
+				 margin: 10px; 
+				  float: right; 
+				  width: 350px; 
+				}
+				img.motoro { 
+					padding: 10px;
+					 margin: 10px; 
+					  float: right; 
+					  width: 350px; 
+					}
+					img.neo { 
+						padding: 10px;
+						 margin: 10px; 
+						  float: right; 
+						  width: 350px; 
+						}
+	/************
+/****************FIN DE POSICIONAMIENTO DE IMAGENES**************/
+/***pie***/
+.footer {
+	background-color: #000;
+	text-align: center;
+	font-family: poppins;
+  
+  }
+  .footer .piesito h3 {
+	
+	font-size: 38px;
+   display: block;
+   color: #fff;
+   max-width: 850px;
+   padding-bottom: 1px;
+   border-bottom: #fff solid 1px;
+   text-align: center;
+   margin: 0 auto;
+	margin-bottom: 0px;
+   margin-bottom: 30px;
+  
+  }
+  .footer .piesito span {
+	
+	font-size: 17px;
+	display: block;
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 5px;
+  }
+  .footer .piesito p {
+	
+	font-size: 17px;
+	display: block;
+	color: #fff;
+	line-height: 30px;
+  }
+  /****************menu xd**************/
+  .navigation {
+    float: left;
+    font-size: 24px;
+    margin-top: 0px;
+    width: 750px;
+}
+
+.navigation li {
+    border-right: 1px solid #9B9A9A;
+    float: left;
+    list-style: none outside none;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: auto;
+}
+
+.navigation li:last-child {
+    border-right: none;
+}
+
+.navigation li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.navigation li a:hover {
+    color: #9B9A9A;
+    text-decoration: none;
+}
+
+.navigation .current a {
+    color: #9B9A9A;
+    text-decoration: none;
+}
+
+.navigation .current a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.menu li:last-child {
+    border-right: none;
+}
+/***************fin menu*****************/
