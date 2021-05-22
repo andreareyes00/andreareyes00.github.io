@@ -1,159 +1,327 @@
-b  {
-box-sizing: border-box;
-padding: 0;
-margin: 0;
+b {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
+
 body {
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 0px;
+    z-index: 10;
+    background: #192e55;
+}
+
+header .logo {
+    position: relative;
+    font-size: 1.5em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+header .search {
+    position: relative;
+    width: 300px;
+    height: 30px;
+}
+
+header .search input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background: transparent;
+    outline: none;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding: 0 20 px 0 45px;
+}
+
+header .search input::placeholder {
+    color: #fff;
+}
+
+header .send {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-30%);
+    transform: translateY(-42%);
+    right: -70px;
+    left: 1640px;
+    color: #000;
+    border-right: 1px solid #fff;
+    padding-right: 1px;
+}
+
+.navigation {
+    float: left;
+    font-size: 24px;
+    margin-top: 0px;
+    width: 750px;
+}
+
+.navigation li {
+    border-right: 1px solid #9B9A9A;
+    float: left;
+    list-style: none outside none;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: auto;
+}
+
+.navigation li:last-child {
+    border-right: none;
+}
+
+.navigation li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.navigation li a:hover {
+    color: #9B9A9A;
+    text-decoration: none;
+}
+
+.navigation .current a {
+    color: #9B9A9A;
+    text-decoration: none;
+}
+
+.navigation .current a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.menu li:last-child {
+    border-right: none;
     background-image: url(FONDODEPANTALLA.jpg);
 }
+
+
 /*********************pie de pagina*****************/
+
 .footer {
-  background-color: #000;
-  text-align: center;
-  font-family: poppins;
-
+    background-color: #000;
+    text-align: center;
+    font-family: poppins;
 }
+
 .footer .piesito h3 {
-  
-  font-size: 38px;
- display: block;
- color: #fff;
- max-width: 850px;
- padding-bottom: 1px;
- border-bottom: #fff solid 1px;
- text-align: center;
- margin: 0 auto;
-  margin-bottom: 0px;
- margin-bottom: 30px;
+    font-size: 38px;
+    display: block;
+    color: #fff;
+    max-width: 850px;
+    padding-bottom: 1px;
+    border-bottom: #fff solid 1px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    margin-bottom: 30px;
+}
 
-}
 .footer .piesito span {
-  
-  font-size: 17px;
-  display: block;
-  color: #fff;
-  padding-top: 10px;
-  padding-bottom: 5px;
+    font-size: 17px;
+    display: block;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
+
 .footer .piesito p {
-  
-  font-size: 17px;
-  display: block;
-  color: #fff;
-  line-height: 30px;
+    font-size: 17px;
+    display: block;
+    color: #fff;
+    line-height: 30px;
 }
+
+
 /*********************fin de pie de pagina************/
 
 
 /*********************Formulario**********************/
 
-body{ 
-  margin: 10px;
-  padding: 0;
-  box-sizing: border-box;
-  position: relative;
-  
-  
+body {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
 }
 
-.form-register{
-  width: 400px;
-  background: #0d8cc7;
-  padding: 30px;
-  margin:100px;
-  margin-top: 500px;
-  border-radius: 4px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: white;
-  box-shadow: 7px 13px 37px #000;
+.form-register {
+    width: 400px;
+    background: #0d8cc7;
+    padding: 30px;
+    margin: 100px;
+    margin-top: 500px;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
 }
-.form-register h4{
-  font-size: 22px;
-  margin-bottom: 20px;
 
+.form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
 }
-.controls{
-  width: 100%;
-  background: #24303c;
-  padding: 10px;
-  border-radius: 4px;
-  margin-bottom: 16px;
-  border: 1px solid #1f53c5;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 18px;
-  
-}
-.form-register p{
-  height: 40px;
-  text-align: center;
-  font-size: 18px;
-  
-}
-.form-register a{
-  color: white;
-}
-.form-register a:hover{
-  color: white;
-  text-decoration: underline;
 
+.controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
 }
+
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.form-register a {
+    color: white;
+}
+
+.form-register a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+body {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.form-register {
+    width: 400px;
+    background: #0d8cc7;
+    padding: 30px;
+    margin: 100px;
+    margin-top: 500px;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.form-register a {
+    color: white;
+}
+
+.form-register a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
 .form-register .botones {
-  width: 100%;
-  background: #1f53c5;
-  border:none;
-  padding: 12px;
-  color: white;
-  margin: 16px 0;
-  font-size: 16px;
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
 }
+
+
 /**********************Fin de Formulario**************/
+
 
 /**********************COLUMNA DE TEXTO**************/
 
-.columna{
-  width: 100%;
-  max-width: 1200px;
-  height: 500px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: auto;
+.columna {
+    width: 100%;
+    max-width: 1200px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
 }
 
-.columna .card{
-  width: 330px;
-  height: 450px;
-  border-radius: 8px;
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-  overflow: hidden;
-  margin: 20px;
-  text-align: center;
-  transition: all 0.25s;
-  background-color: silver;
+.columna .card {
+    width: 330px;
+    height: 450px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: silver;
 }
 
-.columna .card:hover{
+.columna .card:hover {
     transform: translateY(-15px);
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
 
-.columna .card img{
-  width: 320px;
-  height: 220px;
+.columna .card img {
+    width: 320px;
+    height: 220px;
 }
 
-.columna .card h3{
-  font-weight: 600;
+.columna .card h3 {
+    font-weight: 600;
 }
 
-.columna .card p{
-  padding: 0 1rem;
-  font-size: 16px;
-  font-weight: 300;
+.columna .card p {
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
 }
 
-.columna .card a{
-  font-weight: 500;
-  text-decoration: none;
-  color: #3498db;
+.columna .card a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
 }
