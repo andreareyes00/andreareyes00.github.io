@@ -1,11 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 0px;
+    z-index: 10;
+    background: #192e55;
+}
+
+header .logo {
+    position: relative;
+    font-size: 1.5em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 100;
+}
+ 
+header .search {
+    position: relative;
+    width: 300px;
+    height: 30px;
+}
+ 
+header .search input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background: transparent;
+    outline: none;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding: 0 20 px 0 45px;
+}
+ 
+header .search input::placeholder {
+    color: #fff;
+}
+ 
+header .send {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-30%);
+    transform: translateY(-42%);
+    right: -70px;
+    left: 1640px;
+    color: #000;
+    border-right: 1px solid #fff;
+    padding-right: 1px;
+}
 body{
     background-color: steelblue;
 }
-
+ 
 .Orden{
     width: 100%;
 }
-
+ 
 img.logo{
     width: 95px;
     padding: 10px;
@@ -14,70 +78,60 @@ img.logo{
     justify-content: left;
     
 }
-
+ 
 h1.Title{
     width: 100%;
     text-align:left;
-    font-weight: bolder;
-    color: orange;
+    font-style: normal;
+    color: yellowgreen;
     font-size: 50px;
     margin: 20px 20px;
     padding: 200px 0 0 ;
-
+ 
 }
-
+ 
 .title:after{
     width: 100%;
-    background-color: orange;
+    background-color: yellowgreen;
     margin: 15px;
-    font-weight: bolder;
     display: flex;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
+ 
 img.IoT{
-    width: 82%;
+    width: 80%;
     height: 500px;
     justify-content: center;
     margin: 80px;
   
 }
-
+ 
 .Informacion{
     width: 100%;
     margin: 5px;
 }
-
+ 
 h2.pregunta{
     display: block;
     text-align: left;
     font-size: 40px;
-    font-weight: bolder;
     color: red;
     margin:40px
 }
-
+ 
 .texto{
     line-height: 30px;
     font-size: 30px;
-    font-weight: bolder;
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px; 
     margin: 40px;
 }
-
+ 
 img.IoT1{
     margin-left: auto;
     margin-right: auto;
     margin: 40px;
     padding: 0 0 0 300px;
-}
-
-.video{
-    width: 80%;
-    height: 500px;
-    margin: 100px;
-    justify-content: center;
 }
