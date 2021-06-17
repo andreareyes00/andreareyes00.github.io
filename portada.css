@@ -72,6 +72,34 @@ ul.slider li:target {
     border-radius: 100%;
 }
 
+
+/*******darkmode******/ //
+.boton-dark-mode {
+    display: block;
+}
+
+.fa-moon {
+    cursor: pointer;
+    font-size: 25px;
+}
+
+
+/*****fin darkmode*****/
+
+
+/********Estilos DARKMODE********/
+
+.dark-mode {
+    background: black;
+    color: white;
+}
+
+
+/*******Fin estilo DARKMODE********/
+
+
+/**********REDES SOCIALES**********/
+
 .fab {
     width: 20px;
     text-align: center;
