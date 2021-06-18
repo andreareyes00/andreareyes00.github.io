@@ -139,7 +139,8 @@ header .send {
 
 .contenedor .contenido {
     grid-area: contenido;
-    padding: 100px;
+    padding: 50px;
+    margin-top: 75px;
 }
 
 
