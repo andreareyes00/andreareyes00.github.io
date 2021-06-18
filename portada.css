@@ -19,7 +19,7 @@ ul.slider {
     position: relative;
     width: 800px;
     height: 450px;
-    left: -70px;
+    left: -85px;
 }
 
 ul.slider li {
@@ -64,7 +64,7 @@ ul.slider li:target {
     display: inline-block;
     color: white;
     text-decoration: none;
-    background-color: black;
+    background-color: white;
     padding: 10px;
     width: 20px;
     height: 20px;
@@ -73,7 +73,7 @@ ul.slider li:target {
 }
 
 
-/*******darkmode******/ //
+/*******darkmode******/ 
 .boton-dark-mode {
     display: block;
 }
