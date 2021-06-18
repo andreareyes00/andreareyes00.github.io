@@ -4,12 +4,8 @@
     padding: 0;
 }
 
-p {
-    margin-top: 12.5px;
-}
-
 body {
-    background: url(imagen.jpg);
+    background: url(criptomonedas-fondo3.jpg);
     background-size: cover;
     background-attachment: fixed;
     color: #000;
@@ -147,6 +143,21 @@ header .send {
 }
 
 
+/*****Estilo Contenido de la pagina*******/
+
+h1 {
+    color: black;
+}
+
+p {
+    margin-top: 12.5px;
+    color: black;
+}
+
+
+/*****Fin estilo contenido de la pagina*****/
+
+
 /* element.style {}
 
 @media (min-width: 15rem) and (max-width: 24.9375rem) .bbc-3edg7g {
@@ -173,7 +184,7 @@ element.style {}
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     width: 100%;
-    width: calc(100% - 9.5rem);
+    width: calc(100% - 4.5rem);
     margin-right: 9.5rem;
     border-left: 1px solid #6E6E73;
 }
@@ -220,7 +231,7 @@ user agent stylesheet figure {
     justify-content: center;
     min-height: 100px;
     grid-area: sidebar;
-    padding: 90px 0 0 0;
+    padding: 73px 0 0 0;
 }
 
 .contenedor .widget-1,
@@ -285,6 +296,17 @@ user agent stylesheet figure {
     color: #fff;
     line-height: 30px;
 }
+
+
+/********Estilos DARKMODE********/
+
+.dark-mode {
+    background: black;
+    color: black;
+}
+
+
+/*******Fin estilo DARKMODE********/
 
 
 /***FIN DE PIE DE PAGINA*/
