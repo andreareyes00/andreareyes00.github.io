@@ -154,7 +154,7 @@ header .send {
 /**************FIN DE INFO PRINCIPAL******/
 .contenedor .sidebar {
 	grid-column: 3 / 4;
-	background: #fAA43D;
+	background: gray;
 	text-align: center;
 	align-items: center;
     display: grid;
@@ -163,9 +163,7 @@ header .send {
 	grid-area: sidebar;
     margin-top: 75px;
 }
-.contenedor .sidebar info1{
-    border-radius: 1em;
-}
+
 
 .contenedor .widget-1,
 .contenedor .widget-2 {
@@ -238,4 +236,9 @@ header .send {
 						 "widget-1 widget-1 widget-2"
 						 "footer footer footer";
 	}
+}
+/********estilo oscuro*******/
+.dark-mode{
+    background: black;
+    color: black;
 }
