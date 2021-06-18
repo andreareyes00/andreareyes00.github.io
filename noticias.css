@@ -143,24 +143,29 @@ header .send {
 /**********INFO PRINCIPAL********/
 .contenedor .contenido {
 	grid-area: contenido;
-    padding: 100px;
+    padding: 50px;
+    margin-top: 75px ;
 }
 .contenedor .contenido img{
 	float: right;
 	margin: 0.5em;
+    
 }
 /**************FIN DE INFO PRINCIPAL******/
 .contenedor .sidebar {
 	grid-column: 3 / 4;
 	background: #fAA43D;
 	text-align: center;
-	display: flex;
 	align-items: center;
+    display: grid;
 	justify-content: center;
 	min-height: 100px;
 	grid-area: sidebar;
+    margin-top: 75px;
 }
-
+.contenedor .sidebar info1{
+    border-radius: 1em;
+}
 
 .contenedor .widget-1,
 .contenedor .widget-2 {
@@ -175,6 +180,7 @@ header .send {
 
 .contenedor .widget-1 {
 	grid-area: widget-1;
+    text-decoration: white;
 }
 
 .contenedor .widget-2 {
@@ -185,6 +191,7 @@ header .send {
 	background: #12203E;
 	color: #fff;
 	grid-area: footer;
+   
 
 }
 .footer {
