@@ -1,9 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background: url(criptomonedas-fondo3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: "header header header" "contenido contenido sidebar" "widget-1 widget-2 sidebar" "footer footer footer";
+}
+
+.contenedor>div,
+.contenedor .contenido,
+.contenedor .sidebar,
+.contenedor .footer {
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
 }
 
 header {
@@ -63,69 +90,6 @@ header .send {
     padding-right: 1px;
 }
 
-body {
-    background-color: lightgrey;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-img.btc_inicial {
-    padding: 0 0 10px 0px;
-    margin-left: 390px;
-}
-
-img.estadistica {
-    padding: 0 0 10px 0;
-    margin-left: 290px;
-}
-
-iframe.video_inicial {
-    padding: 0 0 10px 0;
-    margin: 10px 0 0 0;
-    justify-content: left;
-}
-
-a {
-    float: left;
-}
-
-h1.titulo {
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-size: 38px;
-    padding: 120px 0 20px 0;
-    text-align: center;
-    color: steelblue;
-}
-
-h2.subtitulo {
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-size: 40px;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    margin: 0 0 15px;
-}
-
-p.first {
-    padding: 0 0 10px 0;
-}
-
-p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
-    text-align: center;
-    text-transform: initial;
-    padding: 0 0 10px 0;
-    color: #020202;
-}
-
-.container {
-    margin: auto;
-    background-color: #252850;
-    width: 800px;
-    padding: 30px;
-}
-
 .navigation {
     float: left;
     font-size: 24px;
@@ -171,12 +135,131 @@ p {
 }
 
 
-/*********************pie de pagina*****************/
+/**********INFO PRINCIPAL********/
+
+.contenedor .contenido {
+    grid-area: contenido;
+    padding: 50px;
+    margin-top: 75px;
+}
+
+
+/*****Estilo Contenido de la pagina*******/
+
+h1 {
+    color: black;
+}
+
+.info {
+    margin-top: 12.5px;
+    color: black;
+}
+
+
+/*****Fin estilo contenido de la pagina*****/
+
+
+/* element.style {}
+
+@media (min-width: 15rem) and (max-width: 24.9375rem) .bbc-3edg7g {
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-end: span 6;
+    grid-column-start: 1;
+}
+
+element.style {}
+
+@media (min-width: 20rem) and (max-width: 37.4375rem) .bbc-1t9zlwf {
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+} */
+
+.pie {
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    font-family: ReithSans, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #6E6E73;
+    margin-top: 13.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    width: 100%;
+    width: calc(100% - 4.5rem);
+    margin-right: 9.5rem;
+    border-left: 1px solid #6E6E73;
+}
+
+.bbc-1qdcvv9 {
+    margin: 0;
+    padding-bottom: 1.5rem;
+    width: 100%;
+}
+
+<style>*,
+ ::before,
+ ::after {
+    box-sizing: inherit;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.contenedor .contenido img {
+    float: left;
+    margin: 0.5em;
+}
+
+
+/**************FIN DE INFO PRINCIPAL******/
+
+.contenedor .sidebar {
+    grid-column: 3 / 4;
+    background: steelblue;
+    text-align: center;
+    align-items: initial;
+    justify-content: center;
+    min-height: 100px;
+    grid-area: sidebar;
+    padding: 73px 0 0 0;
+}
+
+.contenedor .widget-1,
+.contenedor .widget-2 {
+    background: #55a8fd;
+    color: #fff;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor .widget-1 {
+    grid-area: widget-1;
+}
+
+.contenedor .widget-2 {
+    grid-area: widget-2;
+}
+
+
+/*PIE DE PAGINA*/
+
+.contenedor .footer {
+    background: #12203E;
+    color: #fff;
+    grid-area: footer;
+}
 
 .footer {
     background-color: #000;
     text-align: center;
     font-family: poppins;
+    border-bottom: 10px;
 }
 
 .footer .piesito h3 {
@@ -208,4 +291,21 @@ p {
 }
 
 
-/*********************fin de pie de pagina************/
+/********Estilos DARKMODE********/
+
+.dark-mode {
+    background: black;
+    color: black;
+}
+
+
+/*******Fin estilo DARKMODE********/
+
+
+/***FIN DE PIE DE PAGINA*/
+
+@media screen and (max-width: 768px) {
+    .contenedor {
+        grid-template-areas: "header header header" "contenido contenido contenido" "sidebar sidebar sidebar" "widget-1 widget-1 widget-2" "footer footer footer";
+    }
+}
