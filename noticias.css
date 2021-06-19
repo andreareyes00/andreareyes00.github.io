@@ -242,3 +242,7 @@ header .send {
     background: black;
     color: black;
 }
+.fa-moon {
+    cursor: pointer;
+    font-size: 25px;
+}
